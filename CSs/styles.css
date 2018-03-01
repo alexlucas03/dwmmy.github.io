@@ -67,5 +67,13 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%
+}
 
+span {
+  color: #55d6aa;
+  text-align: center;
+}
+
+fieldset {
+  color: #55d6aa
 }
