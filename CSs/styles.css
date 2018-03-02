@@ -51,8 +51,7 @@ header nav ul {
 header nav li {
   display: inline-block;
   margin-left: 50px;
-  padding-top: 35px;
-
+  padding-top: 30px;
   position: relative;
 }
 
@@ -84,6 +83,46 @@ header nav a:hover::before {
   width: 100%
 }
 
+header form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search {
+  padding: 6px 15px 6px 30px;
+  margin: 3px;
+  background: url('./images/search.png') no repeat 8px 6px;
+}
+
+input[type=text]{
+  color: #bcbcbc
+}
+
+input[type=button], input[type=button]:hover {
+  position: relative;
+  left: -6px;
+  border: 1px solid #adc5cf;
+  background: #e4f1f9;
+  color: #7da2aa
+  cursor: pointer;
+  height: 31px;
+}
+
+.dark {
+  width: 95%;
+  height: 50px;
+  padding: 0px 25px;
+}
+
+.dark {
+	background: url('./images/dark_grey.jpg');
+}
+.dark input[type=text]{
+	border:1px solid #2a2e31;
+	background-color:#2d3035;
+	color:#505358;
+}
+
 span {
   color: #55d6aa;
   text-align: center;
@@ -94,6 +133,24 @@ fieldset {
   text-align: right;
   width: 300px
 }
+
+#locator {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  z-index: 200;
+  text-align: center;
+  color: #55d6aa;
+}
+
+  #locator1 {
+    position: absolute;
+    right: 550px;
+    top: 100px;
+    z-index: 200;
+    text-align: center;
+    color: #55d6aa
+  }
 
 /*----------footer-----------*/
 footer nav {
