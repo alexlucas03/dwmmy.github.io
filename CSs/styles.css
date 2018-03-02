@@ -90,7 +90,9 @@ span {
 }
 
 fieldset {
-  color: #55d6aa
+  color: #55d6aa;
+  text-align: right;
+  width: 300px
 }
 
 /*----------footer-----------*/
