@@ -59,7 +59,7 @@ header nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 20px
+  font-size: 15px;
 }
 
 header nav a:hover {
@@ -91,7 +91,6 @@ header form {
 .search {
   padding: 6px 15px 6px 30px;
   margin: 3px;
-  background: url('./images/search.png') no repeat 8px 6px;
 }
 
 input[type=text]{
@@ -108,19 +107,13 @@ input[type=button], input[type=button]:hover {
   height: 31px;
 }
 
-.dark {
-  width: 95%;
-  height: 50px;
-  padding: 0px 25px;
+
+.search {
+  border: 1px solid #2a2e31;
+  background-color: #2d3035;
+  color: #505358;
 }
 
-.dark {
-	background: url('./images/dark_grey.jpg');
-}
-.dark input[type=text]{
-	border:1px solid #2a2e31;
-	background-color:#2d3035;
-	color:#505358;
 }
 
 span {
@@ -128,11 +121,27 @@ span {
   text-align: center;
 }
 
-fieldset {
+Booking.html fieldset {
   color: #55d6aa;
   text-align: right;
   width: 300px
 }
+
+fieldset {
+  color: #55d6aa;
+}
+
+input[type=submit]{
+
+  background: #55d6aa;
+  color: white;
+  border-style: outset;
+  border-color: #444;
+  height: 50px;
+  width: 100px;
+
+}
+
 
 #locator {
   position: absolute;

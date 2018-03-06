@@ -33,7 +33,14 @@
   </div>
 </header>
 <main>
-
+  <form action="bookingdestination.html" method="get">
+    <fieldset>
+      <legend><h3>Write a Review:</h3></legend><br>
+      <label for="name">Name: <input type="text" name="name" id="name" required autofocus placeholder="Your name" pattern="[a-zA-Z]{3,}" title="Please enter more than three letters"><hr><br>
+      <label for="review">Review: <input type="text" name="review" id="review" required placeholder="Your review" pattern="[a-zA-Z]{0,}[1-9]{0,}"><hr>
+      <input type="submit" name="reviewsubmit" value="Submit">
+    </fieldset>
+  </form>
 </main>
 
 
