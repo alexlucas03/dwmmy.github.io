@@ -59,7 +59,9 @@ header nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 16px;
+  font-family: Felix Titling;
+  font-weight: bold;
 }
 
 header nav a:hover {
@@ -112,8 +114,6 @@ input[type=button], input[type=button]:hover {
   border: 1px solid #2a2e31;
   background-color: #2d3035;
   color: #505358;
-}
-
 }
 
 span {
@@ -175,7 +175,8 @@ footer nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px
+  font-size: 13px;
+  font-weight: bolder;
 }
 
 footer nav a:hover {
